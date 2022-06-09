@@ -21,11 +21,12 @@ const List = () => {
 	return (
 		<div className="row justify-content-center mb-5">
 			<h1 className="text-center mt-5 text-warning border-2">
-				Find your favorite gifs!!!<span class="badge bg-info"></span>
+				Find your favorite gifs!!!
+				<span className="badge bg-info"></span>
 			</h1>
 
 			<h2 className="text-center mb-4 text-warning border-2">
-				<span class="badge bg-info">with API Giphy</span>
+				<span className="badge bg-info">with API Giphy</span>
 			</h2>
 
 			<div className="col-4">
