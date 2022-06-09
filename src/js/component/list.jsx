@@ -19,7 +19,7 @@ const List = () => {
 	}, [show]);
 
 	return (
-		<div className="container mb-5">
+		<div className="row justify-content-center mb-5">
 			<h1 className="text-center mt-5 text-warning border-2">
 				Find your favorite gifs!!!<span class="badge bg-info"></span>
 			</h1>
@@ -28,7 +28,7 @@ const List = () => {
 				<span class="badge bg-info">with API Giphy</span>
 			</h2>
 
-			<div className="col-12 ms-3">
+			<div className="col-4">
 				<div className="input-group mb-3">
 					<input
 						type="text"
@@ -51,7 +51,7 @@ const List = () => {
 					</button>
 				</div>
 			</div>
-			<div className="row">
+			<div className="row justify-content-center">
 				{gifs
 					? gifs.map((value, index) => {
 							return (
