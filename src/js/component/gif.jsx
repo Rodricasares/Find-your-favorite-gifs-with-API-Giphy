@@ -6,7 +6,7 @@ const Gifs = (props) => {
 		<div className="row col-12  col-sm-3 p-4 justify-content-center">
 			<div
 				className="card m-2 p-1"
-				style={{ width: "20em", height: "20em" }}>
+				style={{ width: "20em", height: "auto" }}>
 				<img src={props.image} className="card-img-top" alt="..." />
 			</div>
 		</div>
